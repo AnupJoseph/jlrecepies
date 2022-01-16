@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://anupjoseph.github.io/jlrecepies"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
