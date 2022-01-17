@@ -9,7 +9,7 @@ paginate = 5
   contentTypeName = "posts"
 
   # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "green"
+  themeColor = "pink"
 
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 2
@@ -53,7 +53,7 @@ paginate = 5
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
+    title = "Julia Recepies"
     subtitle = "A simple, retro theme for Hugo"
     owner = ""
     keywords = ""
@@ -67,8 +67,8 @@ paginate = 5
     missingBackButtonLabel = "Back to home page"
 
     [languages.en.params.logo]
-      logoText = "Terminal"
-      logoHomeLink = "/"
+      logoText = "JL Recepies"
+      logoHomeLink = "/jlrecepies"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
