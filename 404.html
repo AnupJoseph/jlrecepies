@@ -37,16 +37,30 @@ JL Recepies
 </div>
 <div class=menu-trigger>menu</div>
 </div>
+<div>
 <nav class=menu>
 <ul class="menu__inner menu__inner--desktop">
 <li><a href=/jlrecepies/about>About</a></li>
 <li><a href=/jlrecepies/showcase>Showcase</a></li>
+<ul style=margin-left:auto><form id=search action=https://anupjoseph.github.io/jlrecepies/search/ method=get>
+<label hidden for=search-input>Search site</label>
+<input type=text id=search-input name=query placeholder="Type here to search">
+<input type=submit value=🔍>
+</form>
+<style>input{color:#e0e0e0;background-color:#ffffff1f;font-family:var(--font-family);font-size:14px;border-radius:8px;border:var(--thin-border);box-shadow:var(--drop-shadow-secondary);height:30px;padding:0 .5em}.button,.button:hover,button{color:#fff;height:1.8em;padding:0 .5em;margin:.25em;display:inline-block;text-align:center;border-radius:8px;font-weight:900}</style></ul>
 </ul>
 <ul class="menu__inner menu__inner--mobile">
 <li><a href=/jlrecepies/about>About</a></li>
 <li><a href=/jlrecepies/showcase>Showcase</a></li>
+<form id=search action=https://anupjoseph.github.io/jlrecepies/search/ method=get>
+<label hidden for=search-input>Search site</label>
+<input type=text id=search-input name=query placeholder="Type here to search">
+<input type=submit value=🔍>
+</form>
+<style>input{color:#e0e0e0;background-color:#ffffff1f;font-family:var(--font-family);font-size:14px;border-radius:8px;border:var(--thin-border);box-shadow:var(--drop-shadow-secondary);height:30px;padding:0 .5em}.button,.button:hover,button{color:#fff;height:1.8em;padding:0 .5em;margin:.25em;display:inline-block;text-align:center;border-radius:8px;font-weight:900}</style>
 </ul>
 </nav>
+</div>
 </header>
 <div class=content>
 <div class=post>
@@ -66,6 +80,9 @@ JL Recepies
 </footer>
 <script src=https://anupjoseph.github.io/jlrecepies/assets/main.js></script>
 <script src=https://anupjoseph.github.io/jlrecepies/assets/prism.js></script>
+<script>window.store={}</script>
+<script src=/js/lunr.js></script>
+<script src=/js/search.js></script>
 </div>
 </body>
 </html>
